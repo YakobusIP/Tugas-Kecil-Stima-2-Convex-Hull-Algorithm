@@ -2,9 +2,7 @@
 ## General Information
 Program untuk mencari convex hull dari datasets menggunakan algoritma divide and conquer.
 Program akan menerima dataset kemudian menjalankan fungsi **myConvexHull**.
-Di dalam fungsi ini, program akan mencari titik ekstrem dari array dataset, kemudian akan ditarik garis diantara kedua titik.
-Program kemudian akan mencari titik terjauh yang masih berada di atas atau di bawah garis tersebut.
-Setelah menemukan titik tersebut, program kemudian membentuk sebuah garis baru yang menghubungkan titik tersebut ke titik awal, kemudian dilakukan rekursi untuk mencari titik yang masih berada di luar garis tersebut.
+Fungsi akan membentuk garis kemudian mencari titik terjauh dari garis tersebut. Rekursi akan terus dilakukan hingga tidak ada lagi titik yang berada di luar convex hull yang terbentuk.
 Program akan mengembalikan array of indexes yang dapat digunakan untuk memvisualisasi convex hull yang terbentuk.
 Dataset yang dipakai di dalam program ini adalah **Iris** dan **Wine**
 
